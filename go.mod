@@ -29,6 +29,7 @@ require (
 	github.com/hudl/fargo v1.3.0
 	github.com/influxdata/influxdb1-client v0.0.0-20191209144304-8bf82d3c094d
 	github.com/lightstep/lightstep-tracer-go v0.22.0
+	github.com/nacos-group/nacos-sdk-go v1.0.5 // indirect
 	github.com/nats-io/nats-server/v2 v2.1.2
 	github.com/nats-io/nats.go v1.9.1
 	github.com/oklog/oklog v0.3.2
@@ -41,7 +42,7 @@ require (
 	github.com/pact-foundation/pact-go v1.0.4
 	github.com/pborman/uuid v1.2.0
 	github.com/performancecopilot/speed v3.0.0+incompatible
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.3.0
 	github.com/samuel/go-zookeeper v0.0.0-20190923202752-2cc03de413da
 	github.com/sirupsen/logrus v1.4.2
@@ -51,7 +52,7 @@ require (
 	github.com/streadway/handy v0.0.0-20190108123426-d5acb3125c2a
 	go.etcd.io/etcd v0.0.0-20191023171146-3cf2f69b5738
 	go.opencensus.io v0.22.3
-	go.uber.org/zap v1.13.0
+	go.uber.org/zap v1.15.0
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
 	golang.org/x/tools v0.0.0-20200103221440-774c71fcf114
