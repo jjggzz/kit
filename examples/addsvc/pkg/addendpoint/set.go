@@ -10,15 +10,15 @@ import (
 	stdzipkin "github.com/openzipkin/zipkin-go"
 	"github.com/sony/gobreaker"
 
-	"github.com/go-kit/kit/circuitbreaker"
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/ratelimit"
-	"github.com/go-kit/kit/tracing/opentracing"
-	"github.com/go-kit/kit/tracing/zipkin"
+	"github.com/jjggzz/kit/circuitbreaker"
+	"github.com/jjggzz/kit/endpoint"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/metrics"
+	"github.com/jjggzz/kit/ratelimit"
+	"github.com/jjggzz/kit/tracing/opentracing"
+	"github.com/jjggzz/kit/tracing/zipkin"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
+	"github.com/jjggzz/kit/examples/addsvc/pkg/addservice"
 )
 
 // Set collects all of the endpoints that compose an add service. It's meant to

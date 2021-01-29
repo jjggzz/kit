@@ -3,7 +3,7 @@ package jsonrpc
 import (
 	"encoding/json"
 
-	"github.com/go-kit/kit/endpoint"
+	"github.com/jjggzz/kit/endpoint"
 
 	"context"
 )

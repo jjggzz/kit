@@ -6,9 +6,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/go-kit/kit/endpoint"
+	"github.com/jjggzz/kit/endpoint"
 
-	httptransport "github.com/go-kit/kit/transport/http"
+	httptransport "github.com/jjggzz/kit/transport/http"
 )
 
 type FooService struct {

@@ -3,7 +3,7 @@
 package nacos
 
 import (
-	"github.com/go-kit/kit/log"
+	"github.com/jjggzz/kit/log"
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/vo"

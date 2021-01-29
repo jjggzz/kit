@@ -8,7 +8,7 @@ import (
 
 	"github.com/afex/hystrix-go/hystrix"
 
-	"github.com/go-kit/kit/circuitbreaker"
+	"github.com/jjggzz/kit/circuitbreaker"
 )
 
 func TestHystrix(t *testing.T) {

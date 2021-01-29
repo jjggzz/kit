@@ -9,10 +9,10 @@ import (
 
 	influxdb "github.com/influxdata/influxdb1-client/v2"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/metrics/generic"
-	"github.com/go-kit/kit/metrics/internal/lv"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/metrics"
+	"github.com/jjggzz/kit/metrics/generic"
+	"github.com/jjggzz/kit/metrics/internal/lv"
 )
 
 // Influx is a store for metrics that will be emitted to an Influx database.

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	httptransport "github.com/go-kit/kit/transport/http"
 	"github.com/golang/protobuf/proto"
+	httptransport "github.com/jjggzz/kit/transport/http"
 )
 
 // EncodeProtoResponse is an EncodeResponseFunc that serializes the response as Protobuf.

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics/teststat"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/metrics/teststat"
 )
 
 func TestCounter(t *testing.T) {

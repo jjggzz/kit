@@ -14,9 +14,9 @@ import (
 	"go.opencensus.io/trace"
 	"go.opencensus.io/trace/propagation"
 
-	"github.com/go-kit/kit/endpoint"
-	ockit "github.com/go-kit/kit/tracing/opencensus"
-	kithttp "github.com/go-kit/kit/transport/http"
+	"github.com/jjggzz/kit/endpoint"
+	ockit "github.com/jjggzz/kit/tracing/opencensus"
+	kithttp "github.com/jjggzz/kit/transport/http"
 )
 
 func TestHTTPClientTrace(t *testing.T) {

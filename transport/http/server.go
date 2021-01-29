@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/transport"
+	"github.com/jjggzz/kit/endpoint"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/transport"
 )
 
 // Server wraps an endpoint and implements http.Handler.

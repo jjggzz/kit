@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-kit/kit/endpoint"
+	"github.com/jjggzz/kit/endpoint"
 	"github.com/streadway/amqp"
 )
 

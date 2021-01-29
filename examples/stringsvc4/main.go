@@ -4,14 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"log"
-	"strings"
 	"flag"
+	"log"
 	"net/http"
+	"strings"
 
-	"github.com/go-kit/kit/endpoint"
-	natstransport "github.com/go-kit/kit/transport/nats"
-	httptransport "github.com/go-kit/kit/transport/http"
+	"github.com/jjggzz/kit/endpoint"
+	httptransport "github.com/jjggzz/kit/transport/http"
+	natstransport "github.com/jjggzz/kit/transport/nats"
 
 	"github.com/nats-io/nats.go"
 )
@@ -203,4 +203,3 @@ func decodeCountRequest(_ context.Context, msg *nats.Msg) (interface{}, error) {
 	}
 	return request, nil
 }
-

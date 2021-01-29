@@ -3,8 +3,8 @@ package sd
 import (
 	"time"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
+	"github.com/jjggzz/kit/endpoint"
+	"github.com/jjggzz/kit/log"
 )
 
 // Endpointer listens to a service discovery system and yields a set of

@@ -9,8 +9,8 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 
-	"github.com/go-kit/kit/log"
-	kithttp "github.com/go-kit/kit/transport/http"
+	"github.com/jjggzz/kit/log"
+	kithttp "github.com/jjggzz/kit/transport/http"
 )
 
 // ContextToHTTP returns an http RequestFunc that injects an OpenTracing Span

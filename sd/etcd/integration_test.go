@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
+	"github.com/jjggzz/kit/endpoint"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/sd"
 )
 
 // Package sd/etcd provides a wrapper around the etcd key/value store. This

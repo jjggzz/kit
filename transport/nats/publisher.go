@@ -3,7 +3,7 @@ package nats
 import (
 	"context"
 	"encoding/json"
-	"github.com/go-kit/kit/endpoint"
+	"github.com/jjggzz/kit/endpoint"
 	"github.com/nats-io/nats.go"
 	"time"
 )

@@ -5,9 +5,9 @@ import (
 
 	"github.com/hudl/fargo"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
-	"github.com/go-kit/kit/sd/internal/instance"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/sd"
+	"github.com/jjggzz/kit/sd/internal/instance"
 )
 
 // Instancer yields instances stored in the Eureka registry for the given app.

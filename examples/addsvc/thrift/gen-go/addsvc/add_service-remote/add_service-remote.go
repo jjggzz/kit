@@ -8,7 +8,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc"
+	"github.com/jjggzz/kit/examples/addsvc/thrift/gen-go/addsvc"
 	"math"
 	"net"
 	"net/url"

@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/go-kit/kit/examples/profilesvc"
-	"github.com/go-kit/kit/log"
+	"github.com/jjggzz/kit/examples/profilesvc"
+	"github.com/jjggzz/kit/log"
 )
 
 func main() {

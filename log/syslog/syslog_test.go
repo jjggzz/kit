@@ -11,8 +11,8 @@ import (
 
 	gosyslog "log/syslog"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/log/level"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/log/level"
 )
 
 func TestSyslogLoggerDefaultPrioritySelector(t *testing.T) {

@@ -13,9 +13,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/transport"
-	httptransport "github.com/go-kit/kit/transport/http"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/transport"
+	httptransport "github.com/jjggzz/kit/transport/http"
 )
 
 var (

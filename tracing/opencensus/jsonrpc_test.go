@@ -17,9 +17,9 @@ import (
 	"go.opencensus.io/trace"
 	"go.opencensus.io/trace/propagation"
 
-	"github.com/go-kit/kit/endpoint"
-	ockit "github.com/go-kit/kit/tracing/opencensus"
-	jsonrpc "github.com/go-kit/kit/transport/http/jsonrpc"
+	"github.com/jjggzz/kit/endpoint"
+	ockit "github.com/jjggzz/kit/tracing/opencensus"
+	jsonrpc "github.com/jjggzz/kit/transport/http/jsonrpc"
 )
 
 func TestJSONRPCClientTrace(t *testing.T) {

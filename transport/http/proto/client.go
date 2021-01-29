@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	httptransport "github.com/go-kit/kit/transport/http"
 	"github.com/golang/protobuf/proto"
+	httptransport "github.com/jjggzz/kit/transport/http"
 )
 
 // EncodeProtoRequest is an EncodeRequestFunc that serializes the request as Protobuf.

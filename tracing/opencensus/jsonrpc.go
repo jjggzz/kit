@@ -8,8 +8,8 @@ import (
 	"go.opencensus.io/plugin/ochttp/propagation/b3"
 	"go.opencensus.io/trace"
 
-	kithttp "github.com/go-kit/kit/transport/http"
-	jsonrpc "github.com/go-kit/kit/transport/http/jsonrpc"
+	kithttp "github.com/jjggzz/kit/transport/http"
+	jsonrpc "github.com/jjggzz/kit/transport/http/jsonrpc"
 )
 
 // JSONRPCClientTrace enables OpenCensus tracing of a Go kit JSONRPC transport client.

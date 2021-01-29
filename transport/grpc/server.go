@@ -6,9 +6,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/transport"
+	"github.com/jjggzz/kit/endpoint"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/transport"
 )
 
 // Handler which should be called from the gRPC binding of the service

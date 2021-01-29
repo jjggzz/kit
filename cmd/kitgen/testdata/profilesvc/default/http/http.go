@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/go-kit/kit/cmd/kitgen/testdata/profilesvc/default/endpoints"
-	httptransport "github.com/go-kit/kit/transport/http"
+	"github.com/jjggzz/kit/cmd/kitgen/testdata/profilesvc/default/endpoints"
+	httptransport "github.com/jjggzz/kit/transport/http"
 )
 
 func NewHTTPHandler(endpoints endpoints.Endpoints) http.Handler {

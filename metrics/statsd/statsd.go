@@ -14,11 +14,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/metrics/internal/lv"
-	"github.com/go-kit/kit/metrics/internal/ratemap"
-	"github.com/go-kit/kit/util/conn"
+	"github.com/jjggzz/kit/log"
+	"github.com/jjggzz/kit/metrics"
+	"github.com/jjggzz/kit/metrics/internal/lv"
+	"github.com/jjggzz/kit/metrics/internal/ratemap"
+	"github.com/jjggzz/kit/util/conn"
 )
 
 // Statsd receives metrics observations and forwards them to a StatsD server.

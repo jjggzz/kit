@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/go-kit/kit/log"
 	"github.com/go-stack/stack"
+	"github.com/jjggzz/kit/log"
 )
 
 func TestContext(t *testing.T) {

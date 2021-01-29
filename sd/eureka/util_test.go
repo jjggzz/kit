@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-kit/kit/log"
 	"github.com/hudl/fargo"
+	"github.com/jjggzz/kit/log"
 )
 
 type testConnection struct {

@@ -4,7 +4,7 @@ package nacos
 
 import (
 	"fmt"
-	"github.com/go-kit/kit/log"
+	"github.com/jjggzz/kit/log"
 	"github.com/nacos-group/nacos-sdk-go/clients/naming_client"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 )
